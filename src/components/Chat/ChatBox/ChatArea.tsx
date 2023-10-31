@@ -10,7 +10,7 @@ import { useAppSelector } from "../../../hooks/store/useStore";
 import { Message } from "../../../models/Message";
 import openSocket from "socket.io-client";
 
-const socket = openSocket("http://localhost:8000");
+const socket = openSocket("https://wow-wraps-backend.onrender.com");
 const ChatArea: React.FC<{ room: RoomChat | undefined }> = ({ room }) => {
     const currentUser = useAppSelector((state) => state.authentication);
     const [inputValue, setInputValue] = useState("");
