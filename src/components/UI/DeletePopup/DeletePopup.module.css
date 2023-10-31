@@ -1,0 +1,30 @@
+.delete-popup {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding: 1.2rem;
+    position: absolute;
+    top: -125%;
+    left: -4.8rem;
+    background-color: var(--dark-background);
+    width: 20rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.delete-popup .action {
+    align-self: flex-end;
+    display: flex;
+    gap: 0.8rem;
+}
+
+.delete-popup .action button {
+    border: none;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.delete-popup .action .delete {
+    background-color: #ff4d4f;
+    color: #fff;
+}

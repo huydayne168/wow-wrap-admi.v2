@@ -1,0 +1,102 @@
+*:focus {
+    outline: none;
+}
+
+.addProduct {
+    padding: 24px;
+}
+
+.productFormContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.heading {
+    font-size: 22px;
+    color: #1677ff;
+    padding: 12px 24px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.product-form {
+    padding: 24px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.product-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 120px;
+    row-gap: 12px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.image-control {
+    grid-row: 4/5;
+}
+
+.sendBtn {
+    margin-top: 32px;
+    /* padding: 12px 64px; */
+    justify-self: flex-start;
+    grid-row: 7/8;
+}
+
+.choose-tags-action {
+    grid-column: 2/3;
+    height: 100%;
+    width: 100%;
+}
+
+.choose-tags-action ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.chose-tags-list .tag {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.chose-tags-list .tag .tag-delete-icon {
+    margin-top: 1px;
+    padding: 1px;
+}
+
+.chose-tags-list .tag .tag-delete-icon:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.chose-tags-list,
+.tags-list {
+    display: flex;
+    justify-self: self-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.tags-list {
+    border: 1px solid #fff;
+    padding: 8px;
+    flex: 1;
+}
+
+.tag {
+    margin: 2px;
+    padding: 4px;
+    background-color: var(--main-color);
+    color: var(--paragraph-color);
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: Plus Jakarta Sans;
+}

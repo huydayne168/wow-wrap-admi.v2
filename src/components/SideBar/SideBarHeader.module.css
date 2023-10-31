@@ -1,0 +1,16 @@
+.side-bar-header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    margin: 6px;
+    font-weight: 600;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    border-radius: 6px;
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 2rem;
+    font-family: "Libre Bodoni", serif;
+}

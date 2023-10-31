@@ -1,0 +1,39 @@
+.dropdown {
+    position: relative;
+}
+
+.dropdown svg {
+    cursor: pointer;
+    padding: 1.2rem;
+}
+
+.dropdown ul {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 9999;
+    padding: 0.4rem;
+    background-color: var(--dark-background);
+    color: #fff;
+    border-radius: 0.4rem;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    white-space: nowrap;
+}
+
+.dropdown ul.show {
+    display: inline-block;
+}
+
+.dropdown ul li {
+    padding: 0.8rem 1.2rem;
+    margin-bottom: 0;
+    margin: 0.2rem;
+}
+
+.dropdown ul li:hover {
+    background-color: var(--main-color);
+    cursor: pointer;
+}

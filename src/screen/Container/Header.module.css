@@ -1,0 +1,11 @@
+.heading {
+    color: var(--White, #fff);
+    text-align: center;
+    /* H2 */
+    font-family: Libre Bodoni;
+    font-size: 5.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.15625; /* 115.625% */
+    text-transform: capitalize;
+}

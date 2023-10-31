@@ -1,0 +1,35 @@
+.chat-box {
+    position: absolute;
+    /* left: -100%; */
+    right: 110%;
+    width: 50rem;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+}
+
+.chat-box__heading {
+    padding: 8px;
+    border-bottom: 1px solid #000;
+}
+
+.chat-box__heading {
+    background-color: var(--main-color);
+}
+
+.chat {
+    display: flex;
+}
+
+.announce-box {
+    height: 32rem;
+    flex: 4;
+    background-color: var(--dark-background);
+    border-left: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: var(--paragraph-color);
+    font-size: 2rem;
+}

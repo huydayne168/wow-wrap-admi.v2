@@ -1,0 +1,24 @@
+.navigation {
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    color: var(--paragraph-color);
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.navigation-list span {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+}
+
+.navigation-list ul {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    border-radius: 0.4rem;
+    background-color: var(--lighter-dark-background);
+}

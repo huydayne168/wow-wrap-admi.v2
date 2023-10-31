@@ -1,0 +1,29 @@
+.user-info-desc {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.4rem;
+    color: var(--paragraph-color);
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 2.4rem;
+    border-radius: 1.2rem;
+}
+
+.info-type {
+    width: 100%;
+}
+
+.info-type span:first-child {
+    font-family: Libre Bodoni;
+    white-space: nowrap;
+    display: inline-block;
+    width: 22rem;
+}
+
+.latest-checkout {
+    margin-top: 3.2rem;
+    font-size: 2.4rem;
+    color: #fff;
+    font-family: "Libre Bodoni", serif;
+}

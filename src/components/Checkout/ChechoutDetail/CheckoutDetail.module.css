@@ -1,0 +1,76 @@
+.checkout-detail {
+    margin: auto;
+    width: 80%;
+    margin-top: 3.2rem;
+    padding: 2.4rem;
+    border-radius: 0.8rem;
+    background-color: var(--lighter-dark-background);
+    color: var(--paragraph-color);
+    font-family: "Libre Bodoni", serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+}
+
+.responsive-table {
+    margin-top: 3.2rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.responsive-table span {
+    display: inline-block;
+    margin: auto;
+}
+
+.responsive-table li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+}
+.responsive-table .table-header {
+    background-color: var(--main-color);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.responsive-table .table-row {
+    color: #fff;
+    background-color: #0b0b11;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+    transition: all 300ms ease;
+}
+
+.responsive-table .col {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.responsive-table .col-1 {
+    flex-basis: 80%;
+    gap: 0.4rem;
+}
+
+.responsive-table .col-1 > div {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.product-image {
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+
+.responsive-table col.col-2 {
+    flex-basis: 20%;
+    justify-content: center;
+}
+
+.products > p {
+    margin-top: 3.2rem;
+    color: var(--paragraph-color);
+    font-family: "Libre Bodoni", serif;
+}

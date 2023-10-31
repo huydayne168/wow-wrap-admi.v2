@@ -1,0 +1,55 @@
+.chat-area {
+    flex: 4;
+}
+
+.chat-box__body ul {
+    height: 320px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    overflow-y: scroll;
+    padding: 0.8rem;
+}
+
+.chat-box__body ul li {
+    display: block;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    width: fit-content;
+}
+
+.chat-box__body .my-mess {
+    background-color: var(--main-color);
+    color: #fff;
+    margin-left: auto;
+}
+
+.chat-box__body .other-mess {
+    width: fit-content;
+    background-color: #777;
+    color: #000;
+    margin-right: auto;
+}
+
+.chat-box__bottom {
+    padding: 0.8rem;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #666;
+}
+
+.chat-box__bottom input {
+    margin: 0 20px;
+    padding: 4px;
+}
+
+.chat-box__bottom button {
+    background-color: var(--main-color);
+    border-radius: 0.2rem;
+    border: none;
+    color: var(--paragraph-color);
+    font-size: 16px;
+    cursor: pointer;
+}

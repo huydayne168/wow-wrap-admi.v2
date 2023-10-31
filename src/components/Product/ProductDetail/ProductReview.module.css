@@ -1,0 +1,55 @@
+.review {
+    max-height: 42rem;
+    padding: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    overflow-y: scroll;
+    overscroll-behavior: contain;
+    margin-bottom: 3.2rem;
+    color: var(--White, #fff);
+}
+
+.review::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.review::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.review::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.review::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+.review::-webkit-scrollbar-thumb:active {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.review-item {
+    display: flex;
+    gap: 1.8rem;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-family: Plus Jakarta Sans;
+}
+
+.username {
+    /* 18 */
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.55556; /* 155.556% */
+}
+
+.body {
+    margin-top: 1.6rem;
+    margin-bottom: 2rem;
+}

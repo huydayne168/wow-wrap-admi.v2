@@ -1,0 +1,103 @@
+.responsive-table {
+    margin-top: 3.2rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.responsive-table span {
+    display: inline-block;
+    margin: auto;
+}
+
+.responsive-table li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+}
+.responsive-table .table-header {
+    background-color: var(--main-color);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.responsive-table .table-row {
+    color: #fff;
+    background-color: #0b0b11;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+    transition: all 300ms ease;
+}
+
+.responsive-table .col {
+    padding: 0 0.8rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.2rem;
+}
+.responsive-table .col-1 {
+    flex-basis: 15%;
+    gap: 0.4rem;
+}
+.responsive-table .col-1 span:hover {
+    color: var(--main-color);
+    cursor: pointer;
+}
+.col-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.responsive-table .col-2 {
+    flex-basis: 15%;
+}
+.responsive-table .col.col-3 {
+    justify-content: space-between;
+    flex-basis: 15%;
+    gap: 1.2rem;
+    display: flex;
+}
+
+.responsive-table .col.col-3.products {
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.responsive-table .col.col-3 > div {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 2.2rem;
+}
+.responsive-table .col-4 {
+    flex-basis: 25%;
+}
+
+.responsive-table .col-5 {
+    flex-basis: 20%;
+}
+
+.responsive-table .col.col-6 {
+    display: flex;
+    justify-content: center;
+    flex-basis: 15%;
+    position: relative;
+}
+
+.product-image {
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+
+.responsive-table .col-6 svg {
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.delete-btn {
+}

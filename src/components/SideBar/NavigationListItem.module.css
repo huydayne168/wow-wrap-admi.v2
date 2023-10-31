@@ -1,0 +1,17 @@
+.navigation-list-item {
+    padding: 1rem;
+    border-radius: 0.4rem;
+    transition: all 300ms ease;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--paragraph-color);
+}
+
+.navigation-list-item:hover {
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+.navigation-list-item.active {
+    background-color: var(--main-color);
+}

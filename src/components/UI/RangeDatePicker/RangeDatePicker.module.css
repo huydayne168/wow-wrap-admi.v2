@@ -1,0 +1,14 @@
+.range-date-picker {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.range-date-picker label {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.3; /* 130% */
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+}

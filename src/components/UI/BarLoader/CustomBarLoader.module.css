@@ -1,0 +1,7 @@
+.bar-loader > span {
+    width: 100% !important;
+}
+
+.bar-loader > span span {
+    background-color: var(--main-color) !important;
+}
