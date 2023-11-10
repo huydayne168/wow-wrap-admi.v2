@@ -1,46 +1,77 @@
-# Getting Started with Create React App
+# `WOW WRAPS ADMIN UI`:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## `You can visit my admin page here:`
 
-## Available Scripts
+Admin page: https://admin-wow-wraps-tsx.vercel.app/
 
-In the project directory, you can run:
+You can use this acount here to LOG IN as an admin:
 
-### `npm start`
+    Email: huynguyenviet1608@gmail.com
+    
+    Password: 12345678
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Or you can SIGN UP with the `secret key`:  `ADMIN_SECRET_16082003`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`Note`: In the Voucher part, if you want to use a voucher you have to get the voucher code from admin page (Beacause I have not done the sending voucher to user feature :vvv)
 
-### `npm test`
+## You can see the 2 another parts of this WOW WRAPS:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+client: https://github.com/huydayne168/client-wow-wraps-tsx
 
-### `npm run build`
+backend: https://github.com/huydayne168/wow-wraps-backend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Thank you! Want to see my CV? here: https://huydayne168.github.io/myWebCV/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## `About WOW WRAPS`:
+### WOW WRAPS is a food odering website:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-It has client and admin website
 
-### `npm run eject`
+-Allow customer to order food, search for foods, read blogs,...
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+-Allow admin to manage users, foods, flashsales, vouchers,...
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## `ADMIN V2`:
+### This is the admin vrsion 2 that I have updated the UI to similar with the client and i also built the chat box for both admin and client:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Techstacks:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img src="https://oneteamsolutions.in/blogoneteam/wp-content/uploads/2020/05/REACT-JS-KOCHI.png" height=50 width= auto/> <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" height=50 width= auto/> <img src="https://reactrouter.com/_brand/react-router-stacked-color.png" height=50 width= auto/> <img src="https://i0.wp.com/programmingwithmosh.com/wp-content/uploads/2020/02/reduxlogo.png?ssl=1" height=50 width= auto/> <img src="https://iconape.com/wp-content/files/ro/370540/svg/ant-design-logo-icon-png-svg.png" height=50 width= auto/>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Features: 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`Now available`:
+
+    -Add, Delete, Edit, Manage products
+
+    -Add, Delete, Edit, Manage checkouts
+
+    -Add, Delete, Edit, Manage tags and categories
+
+    -Manage users
+
+    -Create, Manage Flashsales
+
+    -Create, Manage Vouchers
+
+    -Login, Sign up, Log out
+
+    -Send emails
+
+    -Chat to consult about products for users
+
+    -...
+
+`In developing:`
+
+    -Edit Vouchers, Flash Sales
+    
+    -Add, Delete, Edit reserved table
+    
+    -...
+
+
+
+
+
