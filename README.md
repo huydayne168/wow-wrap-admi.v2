@@ -2,7 +2,7 @@
 
 ## `You can visit my admin page here:`
 
-Admin page: https://admin-wow-wraps-tsx.vercel.app/
+Admin page: https://wow-wrap-admin-v2.vercel.app/
 
 You can use this acount here to LOG IN as an admin:
 
